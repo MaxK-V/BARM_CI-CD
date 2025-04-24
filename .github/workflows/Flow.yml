@@ -8,3 +8,12 @@ jobs:
     steps:
       - name: Ausgabe erster Gruss
         run: echo "Hello word!"
+  second-job:
+    # Runner :
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 2
+        run: echo "Step 2"
+      - name: Step 3
+        run: echo "Step 3"
+# This is a comment
